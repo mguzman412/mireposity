@@ -1,0 +1,4 @@
+#server.port=8090
+texto.indexcontroller.index.titulo: Hola index
+texto.indexcontroller.perfil.titulo: Hola perfil
+texto.indexcontroller.listar.titulo: Hola listar
