@@ -6,6 +6,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import com.bolsadeideas.springboot.di.app.models.service.IServicio;
+import com.bolsadeideas.springboot.di.app.models.service.MiServicio;
 
 @Controller
 public class IndexController {
@@ -13,7 +14,7 @@ public class IndexController {
 	@Autowired
 	private IServicio servicio; //= new MiServicio();
 	
-//	@Autowired constrctor
+//	@Autowired
 //	public IndexController(MiServicio servicio) {
 //		this.servicio = servicio;
 //	}
@@ -27,7 +28,7 @@ public class IndexController {
 	
 	
 
-//	@Autowired metodo set
+//	@Autowired
 //	public void setServicio(MiServicio servicio) {
 //		this.servicio = servicio;
 //	}
